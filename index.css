@@ -1,42 +1,50 @@
- *{
+*{
 	padding:0;
 	margin:0;
 	box-sizing:border-box;
 }
-body{
-	background-color:black;
-}
 .head1{
 	padding-top:10rem;
 	font-size:3.3rem;
-	color:#ef9273;
+	color:#1CAA8D;
 	margin-left:3rem;
+}
+.page1{
+	background-color:black;
+}
+.page2{
+	background-color:black;
 }
 .para1{
 	font-size:1.5rem;
-	color:#0d0d0d;
+	color:white; 
 	margin-left:3rem;
 }
 .img1{
 	padding-top:5rem;
 	padding-bottom:5rem;	
+	margin:auto;
+	display:flex;
 }
 .icn{
-	color:#ef9273;
+	color:#1CAA8D;
 	justify-content:space-between;
 	text-align:center;
+	justify-content:center;	
 	margin-left:2.6rem;
+	font-size:2rem;
+}
+.icons1{
+	text-align:center;
+	align-items:center;
 }
 .page1{
 	padding-bottom:2rem;
-	background-color:#fef9f8;
 }
 .btn{
 	background-color:#F3823A;
 }
-.page2{
-	background-color:#fef9f8;
-}
+
 .head2{
 	padding-top:5rem;
 }
@@ -57,7 +65,7 @@ body{
 	margin-top:1rem;
 }
 .per1{
-	color:#ef9273;	
+	color:#1CAA8D;
 	font-size:1.1rem;
 }
 span{
@@ -93,7 +101,7 @@ span{
 }
 .res iconify-icon{
 	font-size:4rem;
-	color:#ef9273;
+	color:#1CAA8D;
 	margin-top:3.5rem;
 }
 .pro progress{
@@ -117,69 +125,9 @@ span{
 	color:#2b7a78; ;
 }
 .progress-bar{
-	background-color:#ef9273!important;
+	background-color:#1CAA8D!important;
 }
-/* .card{ */
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* flex-direction: column; */
-  /* background-color: #ffffff; */
-  /* margin: 10px 20px; */
-  /* width: 280px; */
-  /* height: 350px; */
-  /* border-radius:5px; */
-  /* box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2); */
-/* } */
-/* .card .percent { */
-  /* position: relative; */
-/* } */
 
-/* .card svg { */
-  /* position: relative; */
-  /* width: 210px; */
-  /* height: 210px; */
-  /* transform: rotate(-90deg); */
-/* } */
-
-/* .card svg circle { */
-  /* width: 100%; */
-  /* height: 100%; */
-  /* fill: none; */
-  /* stroke: #f0f0f0; */
-  /* stroke-width: 10; */
-  /* stroke-linecap: round; */
-/* } */
-
-/* .card svg circle:last-of-type { */
-  /* stroke-dasharray: 625px; */
-  /* stroke-dashoffset: calc(625px - (625px * var(--percent)) / 100); */
-  /* stroke:#ef9273;  */
-/* } */
-
-/* .card .number { */
-  /* position: absolute; */
-  /* top: 50%; */
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
-/* } */
-
-/* .card .number h3 { */
-  /* font-weight: 200; */
-  /* font-size: 3.5rem; */
-/* } */
-
-/* .card .number h3 span { */
-  /* font-size: 2rem; */
-/* } */
-
-/* .card .title h2 { */
-  /* margin: 25px 0 0; */
-/* } */
-
-/* .card:nth-child(1) svg circle:last-of-type { */
-  /* stroke:#ef9273; */
-/* } */
 .port img{
 	border-radius:20px;
 	border:1px solid black;
@@ -199,7 +147,7 @@ span{
 	margin-top:2rem;
 	padding:0.3rem;
 	border-radius:15px;
-	background-color:#ef9273;
+	background-color:#1CAA8D;
 	border:none;
 }
 .portfolio{
@@ -208,10 +156,9 @@ span{
 }
 .port p{
 	margin-top:1.5rem;
-	color:#0d0d0d;
 }
 .port h4{
-	color:#ef9273;
+	color:#1CAA8D;
 }
 .pro{
 	width:70%;
@@ -232,14 +179,14 @@ span{
 	border-radius:50%;
 	text-align:center;
 	margin:auto;
-	color:#ef9273;
+	color:#1CAA8D;
 }
 .email iconify-icon:hover{
-	background-color:#ef9273;
+	background-color:#1CAA8D;
 	color:white;
 }
 .email h1{
-	color:#ef9273!important;
+	color:#1CAA8D!important;
 	font-size:1.5rem;
 	padding:1rem;
 }
@@ -260,9 +207,13 @@ placeholder{
 		width:32%;
 	}
 }
+.page3{
+	background-color:black;
+}
 .page5{
 	padding-top:2rem;
 	padding-bottom:2rem;
+	background-color:black;
 }
 .resum h1{
 	font-size:1.3rem;
@@ -291,6 +242,7 @@ placeholder{
 .contact{
 	padding-top:2rem;
 	padding-bottom:4rem;
+	background-color:black;
 }
 .email {
 	text-align:center;
@@ -300,7 +252,7 @@ placeholder{
 }
 .email a{
 	text-decoration:none;
-	color:black;
+	color:white;
 	font-size:1rem;
 }
 .foot p{
@@ -310,5 +262,5 @@ placeholder{
 	color:black;
 }
 .footer{
-	background-color:#ef9273;
+	background-color:#1CAA8D;
 }
